@@ -21,6 +21,8 @@ entries:
     - https://github.com/tmeinlschmidt/helm-homebridge
     type: application
     urls:
-    - https://github.com/tmeinlschmidt/helm-homebridge/archive/refs/tags/v1.0.0.tar.gz
-    version: 1.0.0
+      - https://github.com/tmeinlschmidt/helm-homebridge/archive/refs/tags/v1.0.1.tar.gz
+      version: 1.0.1
+      - https://github.com/tmeinlschmidt/helm-homebridge/archive/refs/tags/v1.0.0.tar.gz
+      version: 1.0.0
 generated: "2026-01-10T21:09:01.433366+01:00"
