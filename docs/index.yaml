@@ -3,7 +3,29 @@ entries:
   homebridge:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-01-11T00:09:34.76318182Z"
+    created: "2026-01-11T00:36:07.421307387Z"
+    description: A Helm chart for Homebridge - HomeKit support for the impatient
+    digest: 221b142b612e270fe500bb1d5191de763a7f5b8406e542083e7cadf662763092
+    home: https://homebridge.io/
+    keywords:
+    - homebridge
+    - homekit
+    - smart-home
+    maintainers:
+    - name: Tom Meinlschmidt
+      url: https://github.com/tmeinlschmidt
+    - name: homebridge
+      url: https://github.com/homebridge/homebridge
+    name: homebridge
+    sources:
+    - https://github.com/homebridge/homebridge
+    type: application
+    urls:
+    - https://tmeinlschmidt.github.io/helms/homebridge-v1.0.4.tgz
+    version: v1.0.4
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-01-11T00:36:07.420842558Z"
     description: A Helm chart for Homebridge - HomeKit support for the impatient
     digest: c4d01c7c9fe3eaa1d59590d6939467e2c371c775f0df0a2fbfaea885ce2b2bf7
     home: https://homebridge.io/
@@ -25,7 +47,7 @@ entries:
     version: v1.0.3
   - apiVersion: v2
     appVersion: latest
-    created: "2026-01-11T00:09:34.762687689Z"
+    created: "2026-01-11T00:36:07.420338746Z"
     description: A Helm chart for Homebridge - HomeKit support for the impatient
     digest: 2313341e8b78ed73d1d55577dd68e05296bb3f179a8d4c77f7f750fc0b2f18ed
     home: https://homebridge.io/
@@ -47,7 +69,7 @@ entries:
     version: v1.0.2
   - apiVersion: v2
     appVersion: latest
-    created: "2026-01-11T00:09:34.762179802Z"
+    created: "2026-01-11T00:36:07.419807201Z"
     description: A Helm chart for Homebridge - HomeKit support for the impatient
     digest: a3d7fbbe94bbfb74c1474ca44f0bf6eb7f352b103bd002666f76bda2afbd10a5
     home: https://homebridge.io/
@@ -69,7 +91,7 @@ entries:
     version: v1.0.1
   - apiVersion: v2
     appVersion: latest
-    created: "2026-01-11T00:09:34.761686321Z"
+    created: "2026-01-11T00:36:07.419274765Z"
     description: A Helm chart for Homebridge - HomeKit support for the impatient
     digest: f28ecb35275d896a6366e549ff53dc4f25af1e5804a99bf26af2d8628bf18038
     home: https://homebridge.io/
@@ -89,4 +111,4 @@ entries:
     urls:
     - https://tmeinlschmidt.github.io/helms/homebridge-v1.0.0.tgz
     version: v1.0.0
-generated: "2026-01-11T00:09:34.761012895Z"
+generated: "2026-01-11T00:36:07.418592288Z"
