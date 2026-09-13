@@ -155,4 +155,30 @@ entries:
     urls:
     - https://tmeinlschmidt.github.io/helms/homebridge-v1.0.0.tgz
     version: v1.0.0
-generated: "2026-07-17T23:44:37.990228542Z"
+  tdengine-tsdb:
+  - apiVersion: v2
+    appVersion: 3.4.2.8
+    created: "2026-09-14T01:54:59.908314+02:00"
+    description: TDengine TSDB-OSS cluster on Kubernetes — StatefulSet of dnodes with
+      automatic cluster join, mnode HA bootstrap, Longhorn storage, and Ingress for
+      the Explorer UI and REST/InfluxDB API.
+    digest: 78a3e7b5b3dbf6aec63abe524f8ac2bb51145d366e842d61b3d722dd66d8713b
+    home: https://tdengine.com
+    keywords:
+    - tdengine
+    - tsdb
+    - time-series
+    - database
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: Tom Meinlschmidt
+      url: https://github.com/tmeinlschmidt
+    name: tdengine-tsdb
+    sources:
+    - https://github.com/taosdata/TDengine
+    - https://hub.docker.com/r/tdengine/tsdb
+    type: application
+    urls:
+    - https://tmeinlschmidt.github.io/helms/tdengine-tsdb-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-09-14T01:54:59.907502+02:00"
