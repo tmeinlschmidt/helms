@@ -158,6 +158,31 @@ entries:
   tdengine-tsdb:
   - apiVersion: v2
     appVersion: 3.4.2.8
+    created: "2026-09-14T05:20:14.894388+02:00"
+    description: TDengine TSDB-OSS cluster on Kubernetes — StatefulSet of dnodes with
+      automatic cluster join, mnode HA bootstrap, Longhorn storage, and Ingress for
+      the Explorer UI and REST/InfluxDB API.
+    digest: 4183f44ec290ec1c2243686e3d333a8e05dbd1076399aa0ee0a6faaf0c66b940
+    home: https://tdengine.com
+    keywords:
+    - tdengine
+    - tsdb
+    - time-series
+    - database
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: Tom Meinlschmidt
+      url: https://github.com/tmeinlschmidt
+    name: tdengine-tsdb
+    sources:
+    - https://github.com/taosdata/TDengine
+    - https://hub.docker.com/r/tdengine/tsdb
+    type: application
+    urls:
+    - https://tmeinlschmidt.github.io/helms/tdengine-tsdb-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 3.4.2.8
     created: "2026-09-14T02:34:13.157177+02:00"
     description: TDengine TSDB-OSS cluster on Kubernetes — StatefulSet of dnodes with
       automatic cluster join, mnode HA bootstrap, Longhorn storage, and Ingress for
@@ -206,4 +231,4 @@ entries:
     urls:
     - https://tmeinlschmidt.github.io/helms/tdengine-tsdb-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-14T02:34:13.156148+02:00"
+generated: "2026-09-14T05:20:14.893704+02:00"
